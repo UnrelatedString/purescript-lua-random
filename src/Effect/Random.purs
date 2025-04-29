@@ -7,7 +7,7 @@ import Effect (Effect)
 import Data.Int (toNumber, floor)
 
 -- | Returns a random number between 0 (inclusive) and 1 (exclusive). This is
--- | a direct wrapper around JavaScript's `Math.random()`.
+-- | a direct wrapper around Lua's `Math.random()`.
 foreign import random :: Effect Number
 
 -- | Takes a range specified by `low` (the first argument) and `high` (the

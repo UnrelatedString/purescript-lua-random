@@ -1,0 +1,19 @@
+package:
+  name: random
+  dependencies:
+    - prelude: ">=6.0.0 <7.0.0"
+    - effect: ">=4.0.0 <5.0.0"
+    - integers: ">=6.0.0 <7.0.0"
+workspace:
+  backend:
+    cmd: pslua
+    args:
+      - "--foreign-path"
+      - "."
+      - "--lua-output-file"
+      - "output/main.lua"
+      - "--entry"
+      - "Effect.Random"
+  packageSet:
+    path: ./packages.json
+  extraPackages: {}

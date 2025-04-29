@@ -1,10 +1,10 @@
-# purescript-random
+# purescript-lua-random
 
-[![Latest release](http://img.shields.io/github/release/purescript/purescript-random.svg)](https://github.com/purescript/purescript-random/releases)
-[![Build status](https://github.com/purescript/purescript-random/workflows/CI/badge.svg?branch=master)](https://github.com/purescript/purescript-random/actions?query=workflow%3ACI+branch%3Amaster)
-[![Pursuit](https://pursuit.purescript.org/packages/purescript-random/badge)](https://pursuit.purescript.org/packages/purescript-random)
+[![Build status](https://github.com/UnrelatedString/purescript-lua-random/workflows/CI/badge.svg?branch=main)](https://github.com/UnrelatedString/purescript-lua-random/actions?query=workflow%3ACI+branch%3Amain)
+![Latest Version Tag](https://img.shields.io/github/v/tag/UnrelatedString/purescript-lua-random)
+[![Pursuit (original JS version)](https://pursuit.purescript.org/packages/purescript-random/badge)](https://pursuit.purescript.org/packages/purescript-random)
 
-Random value generation.
+Low-level random value generation ported to the Lua backend.
 
 ## Installation
 
